@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st Spring Boot Application</title>
+</head>
+<body>
+<h1>Welcome to the Spring Boot Application</h1>
+<p>This is the display of the Signup page</p>
+
+<!-- Use Thymeleaf to display the name -->
+<h1 th:text="'Email is ' + ${email}"></h1>
+<h1 th:text="'Password is ' + ${password}"></h1>
+
+</body>
+</html>
